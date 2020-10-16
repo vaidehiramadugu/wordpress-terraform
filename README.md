@@ -1,4 +1,4 @@
-What's this:
+Intro
 =========
 
 This is to set up wordpress using AWS infrastructure. We are using terraform to provision infrastructure. Code uses and creates following aws services.
@@ -9,10 +9,6 @@ This is to set up wordpress using AWS infrastructure. We are using terraform to 
 4. EIP for NAT Gateway
 5. RDS mysql instance.
 6. Security Groups to access both EC2 and MYSQL
-
-Note:
------
-You may get charged by aws for using services
 
 
 Usage:
@@ -30,7 +26,7 @@ provisioning:
 
 Destroying the Infra:
 ---------------------
-1. cd wordpress-terraform (Be in the repo directory)
+1. cd wordpress-terraform
 2. terraform destroy -auto-approve
 
 
@@ -57,3 +53,5 @@ db_access_from_ec2 = mysql -h terraform-20201016054400415900000001.ciajt8m190b7.
 
 
 
+=======
+# wordpress-terraform
